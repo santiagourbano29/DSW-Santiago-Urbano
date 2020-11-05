@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navegacion{
+    text-align: center;
+    margin: 30px auto;
+    background: #F0B429;
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menuinicio > li {
+    position: relative;
+    display: inline-block;
+}
+
+.menuinicio > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: #FFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.menuinicio li a:hover{
+    color: #005883;
+    transition: all .3s;
+}
+
+.submenu {
+    position: absolute;
+    background: #333333;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #FFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.menuinicio li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.tabla {
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+}
+.twitter-tweet{
+    text-align: center;
+}
